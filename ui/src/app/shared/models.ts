@@ -878,6 +878,7 @@ export interface NodeSystemInfo {
     architecture: string;
     operatingSystem: string;
     kernelVersion: string;
+    osImage: string;    
 }
 
 export enum ResourceName {
